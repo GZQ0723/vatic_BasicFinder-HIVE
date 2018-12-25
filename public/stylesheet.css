@@ -1,0 +1,431 @@
+body
+{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+label, .button
+{
+    font-size : 12px !important;
+}
+
+table td
+{
+    vertical-align : top;
+}
+
+h1
+{
+    font-family : Arial;
+    margin : 0;
+    padding : 0;
+    font-size : 30px;
+    font-weight : bold;
+}
+
+h2
+{
+    font-family : Arial;
+    margin : 0;
+    padding : 0;
+    font-size : 26px;
+    font-weight : bold;
+}
+
+h3
+{
+    font-family : Arial;
+    font-size : 20px;
+    font-weight : bold;
+    padding : 5px 0;
+    margin : 0;
+}
+
+p, li
+{
+    font-family : Arial;
+    font-size : 16px;
+}
+
+ul
+{
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+code
+{
+    padding : 0 5px;
+}
+
+#turkic_acceptfirst
+{
+    background-color : #cd0a0a;
+    color : #fff;
+}
+
+#turkic_workerstats
+{
+    background-color : #E4E4E4;
+}
+
+#loadingscreen
+{
+    width : 700px;
+    margin : 0 auto;
+    margin-top : 100px;
+}
+
+#loadingscreentext
+{
+    font-weight : bold;
+    font-size : 20px;
+    font-family : Arial;
+}
+
+#loadingscreenslider 
+{
+    background-color : #D5E8FF;
+    width : 100%;
+    height : 50px;
+}
+
+#loadingscreenslider .progressbar
+{
+    background-color : #0F7BFF;
+}
+
+#loadingscreenslider .text
+{
+    color : #fff;
+    font-weight : bold;
+    margin-top : 15px;
+    margin-left :10px;
+    font-family : Arial;
+}
+
+.loadingscreentip
+{
+    font-family : Arial;
+    margin-top : 25px;
+    color : #333;
+}
+
+#loadingscreeninstructions
+{
+    float : right;
+    margin-top : -10px;
+    font-weight : bold;
+}
+
+#annotatescreen
+{
+    width : 925px;
+    margin : 0 auto;
+}
+
+#videoframe
+{
+    background-color : #000;
+    display : block;
+}
+
+#playbutton
+{
+    font-weight : bold;
+    width : 80px;
+}
+
+#newobjectcontainer
+{
+    text-align : center;
+}
+
+#newobjectbutton
+{
+    font-weight : bold;
+}
+
+#speedcontrol
+{
+    display : inline;
+}
+
+#annotateoptions
+{
+    display : inline;
+}
+
+#openadvancedoptions
+{
+    float : right;
+}
+
+#advancedoptions
+{
+    float : right;
+}
+
+#music
+{
+    position : absolute;
+    top : -100000px;
+    left : -100000px;
+    width : 1px;
+    height : 1px;
+}
+
+
+#objectcontainer
+{
+    overflow : auto;
+    height : 100%;
+}
+
+#failedverificationdialog
+{
+    position : fixed;
+    top : 50px;
+    left : 50%;
+    width : 550px;
+    margin-left : -275px;
+    z-index : 10000000;
+    padding : 10px;
+    border : 5px solid #EB1414;
+    background-color : #FFC2C2;
+    overflow : auto;
+}
+
+#failedverificationbutton
+{
+    font-weight : bold;
+}
+
+#instructions
+{
+    font-family : Arial;
+    font-size : 16px;
+    padding : 5px 0;
+}
+
+#instructionsbutton
+{
+    float : right;
+}
+
+#instructionsdialog
+{
+    position : fixed;
+    top : 50px;
+    left : 50%;
+    height : 480px;
+    width : 720px;
+    margin-left : -360px;
+    background-color : #fff;
+    z-index : 10000000000000;
+    padding : 10px;
+    border : 2px solid #000;
+    overflow : auto;
+}
+
+#instructionsclosetop
+{
+    float : right;
+    font-weight : bold;
+}
+
+.keyboardshortcuts
+{
+    list-style-type : none;
+    margin : 0;
+    margin-left : 10px;
+    padding : 0;
+}
+
+.keyboardshortcuts code
+{
+    display : block;
+    width : 100px;
+    float : left;
+}
+
+.trackobject
+{
+    border : 2px solid black;
+    font-family : Arial;
+    font-size : 14px;
+}
+
+.trackobjectfoldedup
+{
+}
+
+.trackobjectfoldeddown
+{
+}
+
+.trackobject p, .trackobject li, .trackobject label
+{
+    font-family : Arial;
+    font-size : 14px !important;
+}
+
+.trackobject .label:hover
+{
+    font-weight : bold;
+}
+
+.trackobject p
+{
+    padding : 2px;
+    margin : 0;
+}
+
+.trackobject ul, ol
+{
+    margin : 0;
+    padding : 0;
+    margin-left : 30px;
+}
+
+.trackobjectheader
+{
+    margin : 0;
+    padding : 3px !important;
+    /*cursor : pointer;*/
+}
+
+.trackobjectheader:hover
+{
+    /*text-decoration : underline;*/
+}
+
+.trackobjectheader .ui-icon
+{
+    float : left;
+}
+
+.boundingbox
+{
+    position : absolute !important;
+    border-style : solid;
+    border-width : 2px;
+    z-index : 5;
+}
+
+.boundingbox .boundingboxtext
+{
+    font-size : 14px;
+    /*margin-top : -18px;*/
+    color : #fff;
+
+    position : absolute;
+    margin-left : -80px;
+    margin-top : -2px;
+    width : 75px;
+    text-align : right;
+
+    padding : 1px;
+    padding-right : 3px;
+    cursor : default;
+    z-index : 0;
+
+    text-shadow: -1px 0 2px #000, 0px 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000; 
+    -moz-text-shadow: -1px 0 2px #000, 0px 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000; 
+    -webkit-text-shadow: -1px 0 2px #000, 0px 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000; 
+}
+
+.boundingboxhighlight .boundingboxtext
+{
+    text-shadow: -1px 0 5px #000, 0px 1px 5px #000, 1px 0 5px #000, 0 -1px 5px #000; 
+    -moz-text-shadow: -1px 0 5px #000, 0px 1px 5px #000, 1px 0 5px #000, 0 -1px 5px #000; 
+    -webkit-text-shadow: -1px 0 5px #000, 0px 1px 5px #000, 1px 0 5px #000, 0 -1px 5px #000; 
+    z-index : 1;
+}
+
+.boundingbox .fill
+{
+    width : 100%;
+    height : 100%;
+    display : block;
+    display : none;
+}
+
+.boundingboxhighlight
+{
+    z-index : 10;
+}
+
+.boundingboxhighlight .fill
+{
+    opacity : 0.25;
+    display : block;
+}
+
+.boundingboxoccluded
+{
+    border-style : dashed;
+}
+
+.ui-resizable-disabled
+{
+    opacity : 1.0 !important;
+}
+
+.boundingboxdim
+{
+    opacity : 0.3 !important; 
+}
+
+.boundingboxlocked
+{
+    z-index : 0;
+    opacity : 0.3 !important;
+}
+
+.boundingboxhighlight
+{
+    opacity : 1 !important;
+}
+
+#submitbar
+{
+    text-align : center;
+    vertical-align : bottom;
+}
+
+#submitdialog
+{
+    position : absolute;
+    top : 200px;
+    left : 0;
+    width : 100%;
+    text-align : center;
+    font-size : 100px;
+    font-weight : bold;
+    font-family : Arial;
+    z-index : 100000;
+}
+
+.boxtooltip
+{
+    position : absolute;
+    width : 200px;
+    height : 200px;
+    z-index : 100;
+    border : 5px solid #000;
+    background-color : #000;
+    background-repeat : no-repeat;
+    -moz-box-shadow: 2px 2px 10px #000, -2px 2px 10px #000, 2px -2px 10px #000, -2px -2px 10px #000;
+    -webkit-box-shadow: 2px 2px 10px #000, -2px 2px 10px #000, 2px -2px 10px #000, -2px -2px 10px #000;
+    box-shadow: 2px 2px 10px #000, -2px 2px 10px #000, 2px -2px 10px #000, -2px -2px 10px #000;
+}
+
+.boxtooltip .boundingbox
+{
+    position : relative;
+    z-index : 101;
+}
